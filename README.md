@@ -7,7 +7,7 @@ Part 1: Introduction to Python for Physicists \
   .Mandelung Constant \
   .Binomial Coefficient \
   .Prime numbers up to n \
-  .Recursive code for calculating Catalan numbers and biggest common divider \
+  .Recursive code for calculating Catalan numbers and biggest common divider 
 
 Part 2: Graphic representation of experimental data \
   .sunspots.txt \
@@ -16,10 +16,10 @@ Part 2: Graphic representation of experimental data \
   .Visual representation of a NaCl atom using VPython (including FCC visualization of a single atom metal) \
   .Visual representation of the Solar System \
   .Logistic map and Feigenbaum plot \
-  .Mandelbrot set graphical representation (using plt.imshow) \
+  .Mandelbrot set graphical representation (using plt.imshow) 
   
 Part 3: Accuracy and speed \
   .Factorial of a given number \
-  .Calcuation of roots of a given 2nd degree equation (multiple methods) \
+  .Calcuation of roots of a given 2nd degree equation (multiple methods) 
   .Derivative calculation by slices \
   .Integral calculator using Rieman method (N slices) \
