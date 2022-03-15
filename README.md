@@ -2,7 +2,7 @@
 Programs developed for the class of Computational Physics (FIS2018), based on the book "Computational Physics" by Mark Newman, using Python (Jupyter Notebook).
 
 Part 1: Introduction to Python for Physicists
-  .Calculation of orbit values 
+  .Calculation of orbit values \
   .Catalan numbers
   .Mandelung Constant
   .Binomial Coefficient
