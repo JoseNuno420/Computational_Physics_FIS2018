@@ -22,4 +22,4 @@ Part 3: Accuracy and speed \
   .Factorial of a given number \
   .Calcuation of roots of a given 2nd degree equation (multiple methods) 
   .Derivative calculation by slices \
-  .Integral calculator using Rieman method (N slices) \
+  .Integral calculator using Rieman method (N slices)
