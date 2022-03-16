@@ -50,3 +50,5 @@ def mandalung_constant(L):
     s += np.sum(distances_line) * 6
     
     return s
+
+print(mandalung_constant(200))
