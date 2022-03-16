@@ -20,6 +20,6 @@ Part 2: Graphic representation of experimental data \
   
 Part 3: Accuracy and speed \
   .Factorial of a given number \
-  .Calculation of roots of a given 2nd degree equation (multiple methods) 
+  .Calculation of roots of a given 2nd degree equation (multiple methods) \
   .Derivative calculation by slices \
   .Integral calculator using Rieman method (N slices)
