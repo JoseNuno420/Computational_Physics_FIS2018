@@ -52,3 +52,25 @@ def mandalung_constant(L):
     return s
 
 print(mandalung_constant(200))
+
+##########################################################################################
+def Mandelung(L):
+    plane = np.zeros([L+1,L+1])
+    signal = np.zeros([L+1,L+1])
+    for i in range (L+1):
+        for j in range(L+1):
+            plane[i,j] = i**2 + j**2
+            signal[i,j] = 1-2*((i+j)%2)
+    sum = 0
+    
+    for k in range(1,L+1):
+        sum += np.sum((1-2*(k%2))*signal[1:,1:]/np.sqrt(plane[1:,1:]+k**2))
+    
+    sum *= 8
+    sum += 12*np.sum(signal[1:,1:]/np.sqrt(plane[1:,1:]))
+    sum += 6*np.sum(signal[1:,0]/np.sqrt(plane[1:,0]))
+    
+    print(sum)
+    return sum
+
+tempo = %timeit -n1 -r4 -o value=Mandelung(200)
