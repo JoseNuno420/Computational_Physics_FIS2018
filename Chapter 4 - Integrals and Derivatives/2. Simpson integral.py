@@ -1,6 +1,6 @@
 import numpy as np
 
-#Simpson Integral for any superior limit x
+#Simpson Integral for any superior limit x of a given function f
 def Simpson(x):
     a = 0
     b = x
